@@ -28,7 +28,7 @@ function animacionAbajo() {
     let scrollTop = document.documentElement.scrollTop;
     for(let i = 0; i < animadoAbajo.length; i++){
         let alturaElemento = animadoAbajo[i].offsetTop;
-        if(alturaElemento - 1500 < scrollTop){
+        if(alturaElemento - 2500 < scrollTop){
             animadoAbajo[i].style.opacity = 1;
             animadoAbajo[i].classList.add('desplazarArriba');
         }

@@ -26,6 +26,7 @@ body {
 
 .main {
     width:100vw;
+    background-color: var(--white);
 }
 
 .welcome {
